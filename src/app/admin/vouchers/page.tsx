@@ -26,7 +26,7 @@ export default async function AllVouchersPage() {
         </div>
       </div>
 
-      <AllVouchersClient initialData={vouchers || []} />
+      <AllVouchersClient initialData={(vouchers || []) as any[]} />
     </div>
   );
 }

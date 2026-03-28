@@ -1,5 +1,5 @@
 import { supabase } from '@/lib/supabase';
-import { Gift, Ticket, CheckCircle, Clock, Undo2 } from 'lucide-react';
+import { Gift, Ticket, CheckCircle, Clock, Undo2, BarChart3 } from 'lucide-react';
 import Link from 'next/link';
 import UndoVoucherButton from '@/components/admin/UndoVoucherButton';
 
